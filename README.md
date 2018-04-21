@@ -69,8 +69,9 @@
 		slocstats.sh			... counts source lines of code
 
 ###Available policies
-	/DAF                           ... DAF policies
-	/DIF                           ... DIF policies
+
+        /DAF                           ... DAF policies
+        /DIF                           ... DIF policies
 	    /FA                        ... policies related to FA modules
 	        /AllocateRetry             ... what happen when M_CREATE is resend by Flow Allocator
 	            /LimitedRetries        ... when retransmit treshold is met, allocation is 
@@ -147,7 +148,7 @@
 	            /LongestQFirst         ... pick the queue which contains the most PDUs 
 	    /Routing                       ... routing policies
 	        /DomainRouting	           ... routing policy based on domains. A domain is defined as a sub-set
-	        							   of the DIF, with its own metrics and routing algorithm.
+	        				of the DIF, with its own metrics and routing algorithm.
 	        	/DV                    ... simple distance vector algorithm for DomainRouting
 	        	/LS                    ... simple link-state algorithm for DomainRouting
 	        /DummyRouting              ... noop
